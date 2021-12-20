@@ -1,0 +1,33 @@
+@font-face {
+    font-family:'ubuntu';
+    src: url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: normal;
+    
+}
+
+@font-face {
+    font-family:'ubuntu';
+    src: url('../fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family:'ubuntu';
+    src: url('../fonts/Ubuntu-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+/* segunda fonte*/
+@font-face {
+    font-family: 'robotoMono';
+    src: url('../fonts/static/RobotoMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'robotoMono';
+    src: url('../fonts/static/RobotoMono-ExtraLight.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'robotoMono';
+    src: url('../fonts/static/RobotoMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+}

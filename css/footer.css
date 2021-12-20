@@ -1,0 +1,14 @@
+footer{
+    height: 2%;
+    background-color: black;
+    color: #fff;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    padding: 0px 20px;
+}
+footer p{
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 300;
+}

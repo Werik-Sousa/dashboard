@@ -1,0 +1,98 @@
+.login{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.login-form {
+    height: 100%;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(197, 197, 197, 0.13);
+    
+}
+.login-title{
+    text-decoration: underline;
+}
+.login-logo{
+    display: none;
+}
+.login-form-wrapper{
+    max-width: 400px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.login-form-wrapper button{
+    width: 100%;
+    border: none;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.507);
+    background: linear-gradient(to left, rgb(233, 47, 47), rgb(247, 126, 110));
+}
+.login-form-wrapper button:hover{
+    transform: scale(1.05);
+    transition: .2s;
+}
+
+.login-cadastro a{
+ color: rgb(0, 0, 0);
+}
+.login-cadastro a:hover{
+    color: rgb(190, 92, 92);
+    text-decoration: underline;
+}
+
+.banner-login{
+    height: 100%;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.banner-login img{
+    width: 50%;
+    margin-right: 50px;
+}
+.banner-login h2{
+    font-size: 50px;
+}
+.login-form-wrapper label{
+    font-size: 15px;
+    font-weight: normal;
+}
+.login-form-wrapper input{
+    background-color: #fff;
+    font-size: 15px;
+}
+
+@media screen and (max-width:765px){
+    .banner-login{
+        display: none;
+    }
+    .login-form {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+    }
+    .login-logo{
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        display: flex;
+    }
+    .login-logo img{
+        width: 30%;
+    }
+    .login-logo h2 {
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10px;
+    }
+}
+
