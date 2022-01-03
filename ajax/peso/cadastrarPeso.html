@@ -2,11 +2,14 @@
   <form>
     <div class="mb-3">
       <label for="weight" class="form-label">Novo Peso</label>
-      <input type="text" class="form-control" id="weight">
+      <input type="text" class="form-control" id="novo" placeholder="KG">
+    </div>
     <div class="mb-3">
       <label for="height" class="form-label">Nova altura</label>
-      <input type="text" class="form-control" id="height">
+      <input type="text" class="form-control" id="altura" placeholder="CM">
     </div>
-    <button type="submit" class="btn">Cadastrar</button>
+    <button class="btn" onclick="produto.cadastrar()">Cadastrar</button>
   </form>
 </div>
+
+<script src="../../js/table.js"></script>

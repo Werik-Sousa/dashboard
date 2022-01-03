@@ -16,6 +16,9 @@
 	background-color: rgba(99, 9, 9, 0.952);
 }
 
+.center {
+    align-items: center;
+}
 
 main{
     display: block;
@@ -177,6 +180,9 @@ main{
     text-transform: uppercase;
     color: black;
 }
+table td img {
+    width: 20px;
+}
 
 @media screen and (max-width:1100px) {
     .dashboard-flex-parent{
@@ -255,7 +261,7 @@ div.main-content-title h2{
     transform: unset;
 }
 table {
-    max-width: 100%;
+    max-width: 1000px;
     width: 100%;
     text-align: center;
 }
@@ -264,6 +270,9 @@ table th {
 }
 table td {
     font-size: 10px;
+}
+table td img {
+    width: 20px;
 }
 .dynamic-content{
     padding: 0px;
